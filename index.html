@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Media App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <nav class="navbar"> -->
+        <h1>Social Media App</h1>
+        <!-- <button onclick="toggleDarkMode()">Dark Mode</button> -->
+    <!-- </nav> -->
+    <div class="container">
+      <!-- Left Part -->
+      <div class="left">
+        <form action="" id="form">
+          <label for="input">Write a post</label><br />
+          <textarea name="post" id="input" cols="30" rows="10"></textarea><br />
+          <div id="msg" class=""></div>
+          <button type="submit" id="submit-button">Post</button>
+        </form>
+      </div>
+      <!-- Right Part -->
+      <div class="right">
+        <h3>Your Posts Here</h3>
+        <div>
+          <div id="posts"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
